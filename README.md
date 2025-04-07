@@ -30,10 +30,9 @@ This project aims to detect a person's blood group using fingerprint analysis. B
    ```bash
    python app.py
    ```
-## 📂 Project Structure
-Blood Group Detection using Fingerprint/
-│
-├── [app.py](http://_vscodecontentref_/1)                     # Main Flask application
+📂 Blood Group Detection using Fingerprint
+```
+├── app.py                     # Main Flask application
 ├── model/
 │   └── model.h5               # Pre-trained model
 ├── dataset_blood_group/       # Dataset of fingerprint images
@@ -44,9 +43,9 @@ Blood Group Detection using Fingerprint/
 │   └── index.html             # HTML template for the web interface
 ├── uploads/                   # Directory for uploaded files
 ├── requirements.txt           # Python dependencies
-├── [README.md](http://_vscodecontentref_/2)                  # Project documentation
+├── README.md                  # Project documentation
 └── LICENSE                    # License file
-
+```
 ## 📊 Dataset  
 The dataset consists of fingerprint images categorized by blood groups. It is stored in the `dataset_blood_group/` directory, with subdirectories for each blood group (e.g., `A+`, `B-`, etc.).  
 
