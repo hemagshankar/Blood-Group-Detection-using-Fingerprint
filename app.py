@@ -70,7 +70,7 @@ def predict():
         print('predicted_class is : ' , predicted_class)
 
         # Optional : Define class name (if not in the model)
-        class_name = ['A+' ,'A-' ,'B+' ,'B-' , 'AB+' ,'AB-' ,'O+' ,'O-']
+        class_name = ['A+' ,'A-' ,'AB+' ,'AB-' , 'B+' ,'B-' ,'O+' ,'O-']
         predicted_label = class_name[predicted_class]
 
         # Return the prediction result
